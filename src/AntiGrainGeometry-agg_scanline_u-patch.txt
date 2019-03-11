@@ -1,0 +1,4 @@
+461c461
+<         typedef scanline_u8           base_type;
+---
+>         typedef scanline32_u8           base_type;
