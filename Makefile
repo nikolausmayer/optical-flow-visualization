@@ -14,7 +14,7 @@ CXXFLAGS += -fPIC -W -Wall -Wextra -Wpedantic -std=c++11 -pthread -isystem src/a
 LDFLAGS = -Lsrc/agg-2.4/src -pthread -lagg -lpng
 
 ## Default name for the built executable
-TARGET = generic_executable
+TARGET = visualize
 
 ## Every *.c/*.cc/*.cpp file is a source file
 SOURCES = $(wildcard src/*.c src/*.cc src/*.cpp)
