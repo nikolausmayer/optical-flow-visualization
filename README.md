@@ -5,7 +5,7 @@ Generate animated visualizations for optical flow fields
 
 
 # Building
-Just `make`. This pulls the dependencies [CImg](http://cimg.eu/) and [AGG](http://www.antigrain.com/), so the first build takes a bit longer.
+Just `make`. This pulls the dependencies [CImg](http://cimg.eu/) and [AGG](http://www.antigrain.com/), so the first build takes a bit longer. Note that CImg and AGG are *not* under this repository's license.
 
 # Running
 `$ bash generate-flow-animation.sh example/0048.pfm`. 
