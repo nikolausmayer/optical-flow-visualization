@@ -3,6 +3,8 @@ Generate animated visualizations for optical flow fields
 
 <img src='https://raw.githubusercontent.com/nikolausmayer/optical-flow-visualization/master/example/0048.png' width='30%' alt=''/>  <img src='https://raw.githubusercontent.com/nikolausmayer/optical-flow-visualization/master/example/0049.png' width='30%' alt=''/>  <img src='https://raw.githubusercontent.com/nikolausmayer/optical-flow-visualization/master/example/flow.gif' width='30%' alt=''/>
 
+# Requirements
+Tested with GCC 7.3 on Ubuntu 18.04.2. ImageMagick and Gifsicle required for output conversion.
 
 # Building
 Just `make`. This pulls the dependencies [CImg](http://cimg.eu/) and [AGG](http://www.antigrain.com/), so the first build takes a bit longer. Note that CImg and AGG are *not* under this repository's license.
