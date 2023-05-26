@@ -7,7 +7,7 @@ Generate animated visualizations for optical flow fields
 Tested with GCC 7.3 on Ubuntu 18.04.2. ImageMagick and Gifsicle required for output conversion.
 
 # Building
-Just `make`. This pulls the dependencies [CImg](http://cimg.eu/) and [AGG](http://www.antigrain.com/), so the first build takes a bit longer. Note that CImg and AGG are *not* under this repository's license.
+Just `make`. This pulls the dependencies [CImg](http://cimg.eu/) and [AGG](https://github.com/nikolausmayer/AntiGrainGeometry-v2.4), so the first build takes a bit longer. Note that CImg and AGG are *not* under this repository's license.
 
 # Running
 `$ bash generate-flow-animation.sh example/0048.pfm`. 
