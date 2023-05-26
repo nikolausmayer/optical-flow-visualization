@@ -69,7 +69,7 @@ src/CImg.h:
 
 src/agg-2.4/src/libagg.a:
 	$(info ... downloading and building AGG ...)
-	test -f agg-2.4.tar.gz || wget http://www.antigrain.com/agg-2.4.tar.gz
+	test -f agg-2.4.tar.gz || wget https://github.com/nikolausmayer/AntiGrainGeometry-v2.4/raw/master/agg-2.4.tar.gz
 	test -d agg-2.4 || tar xfz agg-2.4.tar.gz
 	test -d src/agg-2.4 || mv agg-2.4 src/
 	test -f src/agg-2.4/src/libagg.a || ( cd src/agg-2.4 && patch include/agg_scanline_u.h < ../AntiGrainGeometry-agg_scanline_u-patch.txt && make )
